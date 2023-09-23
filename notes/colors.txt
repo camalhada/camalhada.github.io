@@ -1,0 +1,4 @@
+Black - #211e20
+Dark - #555568
+Lighter - #a0a08b
+White - #e9efec

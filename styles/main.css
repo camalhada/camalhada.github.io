@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Monocraft;
+    src: url('../fonts/Monocraft.otf');
+} 
+
+body{
+    /*Coloring the Div*/
+    background-color: #211e20;
+    color: #e9efec;
+    
+    /*Styling the Text*/
+    font-family: Monocraft;
+    font-size: 20px;
+
+
+    .loading{
+        /*Div Alignment*/
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /*Div Scaling*/
+        height: 100%;
+        width: 100%;
+    }
+
+}
