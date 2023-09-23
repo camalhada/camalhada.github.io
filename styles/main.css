@@ -1,6 +1,14 @@
 @font-face {
     font-family: Monocraft;
     src: url('../fonts/Monocraft.otf');
+}
+@font-face {
+    font-family: Uburied;
+    src: url('../fonts/unburied.otf');
+}
+@font-face {
+    font-family: Mediaval;
+    src: url('../fonts/medieval-pixel.otf');
 } 
 
 body{
@@ -20,9 +28,20 @@ body{
         justify-content: center;
         align-items: center;
 
+        /*Div Text Style*/
+        font-family: Mediaval;
+        font-size: 40px;
+
         /*Div Scaling*/
         height: 100%;
         width: 100%;
+    }
+
+    .ponder{
+        width: 480px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
