@@ -45,3 +45,21 @@ body{
     }
 
 }
+
+@media only screen and (max-width: 600px) {
+    
+
+    body{
+        .loading{
+            /*Mobile Resize*/
+            font-size: 20px;
+        }
+    
+        .ponder{
+            /*Mobile Resize*/
+            width: 240px;
+        }
+    
+    }
+
+}
