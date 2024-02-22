@@ -29,8 +29,8 @@ body{
         align-items: center;
 
         /*Div Text Style*/
-        font-family: Mediaval;
-        font-size: 40px;
+        font-family: Monocraft;
+        font-size: 2rem;
 
         /*Div Scaling*/
         height: 100%;
@@ -44,6 +44,46 @@ body{
         margin-right: auto;
     }
 
+    .links{
+        /*Div Alignment*/
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        /*Div Scaling*/
+        height: 100%;
+        width: 100%;
+        
+        .text{
+            /*Div Text Style*/
+            font-family: Monocraft;
+            font-size: 2rem;
+        }
+
+        .links{
+            /*Div Text Style*/
+            font-family: Monocraft;
+            font-size: 2rem;
+
+            /*Div Positioning*/
+            margin-top: 1rem;
+
+            a{
+                /*Link Text Style*/
+                color: #e9efec;
+                text-decoration: none;
+                font-family: Monocraft;
+                font-size: 2rem;
+
+                margin: 0.5rem 0;
+            }
+        }
+
+
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -52,12 +92,12 @@ body{
     body{
         .loading{
             /*Mobile Resize*/
-            font-size: 20px;
+            font-size: 1rem;
         }
     
-        .ponder{
+        .ponder, .links{
             /*Mobile Resize*/
-            width: 240px;
+            width: 12rem;
         }
     
     }
