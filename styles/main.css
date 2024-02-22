@@ -70,6 +70,13 @@ body{
             /*Div Positioning*/
             margin-top: 1rem;
 
+            /*Div Alignment*/
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
             a{
                 /*Link Text Style*/
                 color: #e9efec;
